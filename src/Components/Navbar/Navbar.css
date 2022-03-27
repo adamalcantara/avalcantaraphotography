@@ -1,7 +1,6 @@
 #linklogo {
     margin-left: 20px;
     width: 33%;
-    background-color: red;
 }
 
 #logo {
@@ -14,7 +13,6 @@
     width: 100%;
     font-weight: 300;
     height: 150px;
-    background-color: darkgrey;
     align-items: center;
 }
 
@@ -25,7 +23,6 @@
     font-size: 35px;
     display: flex;
     width: 33%;
-    background-color: blue;
 }
 
 .menuitem {
@@ -69,7 +66,6 @@
     justify-content: right;
     cursor: default;
     width: 33%;
-    background-color: green
 }
 
 .socialicon {
@@ -129,6 +125,9 @@
 @media screen and (max-width: 1000px) {
     #mobileNav {
         display: block;
+    }
+
+    #mobileNavPieces {
         height: 100px;
     }
 

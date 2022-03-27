@@ -22,23 +22,27 @@ class Navbar extends Component {
         return (
         <div>
             <div id="mobileNav">
+
                 <div id="mobileNavPieces">
                     {/* mobile navigation goes here */}
-                    <img src={logosmall} id="logosmall"></img>
+                    <div>
+                        <img src={logosmall} id="logosmall"></img>
+                    </div>
                     <div id="burger" onClick={this.handleClick}>
                         <div id="line1" className={this.state.clicked ? 'line1click' : ''}></div>
                         <div id="line2" className={this.state.clicked ? 'line2click' : ''}></div>
                         <div id="line3" className={this.state.clicked ? 'line3click' : ''}></div>
                     </div>
                 </div>
+
+                <div className={this.state.clicked ? 'navbar active' : 'navbar'}>
+                    <Link to="/about" className="navlinks" onClick={this.handleClick}>About</Link>
+                    <Link to="/portraits" className="navlinks" onClick={this.handleClick}>Portraits</Link>
+                    <Link to="/headshots" className="navlinks" onClick={this.handleClick}>Headshots</Link>
+                    <Link to="/contact" className="navlinks" onClick={this.handleClick}>Contact</Link>
+                </div>
             </div>
 
-            <div className={this.state.clicked ? 'navbar active' : 'navbar'}>
-                <Link to="/about" className="navlinks" onClick={this.handleClick}>About</Link>
-                <Link to="/portraits" className="navlinks" onClick={this.handleClick}>Portraits</Link>
-                <Link to="/headshots" className="navlinks" onClick={this.handleClick}>Headshots</Link>
-                <Link to="/contact" className="navlinks" onClick={this.handleClick}>Contact</Link>
-            </div>
 
             {/* start regular navigation */}
             <div id="nav">
