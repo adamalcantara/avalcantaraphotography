@@ -21,8 +21,19 @@ class Navbar extends Component {
             </div>
 
             {/* start regular navigation */}
-            <div>
-                
+            <div className={this.state.clicked ? 'nav active' : 'nav'}>
+                <img src={logo} alt="logo" id="logo"></img>
+                <ul>
+                    <div id="dropdown">
+                        <li id="dropbtn" className="menuitem">Portfolio</li>
+                        <div id="dropdown-content">
+                            <Link to="/portraits" className="menuitem">Portraits</Link>
+                            <Link to="/headshots" className="menuitem">Headshots</Link>
+                        </div>
+                    </div>            
+                    <li><Link to="about" className="menuitem">About</Link></li>
+                    <li><Link to="contact" className="menuitem">Contact</Link></li>
+                </ul>
             </div>
         </div>
         )
