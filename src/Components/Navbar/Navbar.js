@@ -21,14 +21,14 @@ class Navbar extends Component {
     render() {
         return (
         <div>
-            <div id="mobileNav">
+            <div className={this.state.clicked ? 'nav active' : 'nav'}>
                 {/* mobile navigation goes here */}
             </div>
 
             {/* start regular navigation */}
-            <div className={this.state.clicked ? 'nav active' : 'nav'}>
+            <div id="nav">
                 <img src={logo} alt="logo" id="logo"></img>
-                <ul>
+                <ul id='navigation'>
                     <div id="dropdown">
                         <li id="dropbtn" className="menuitem">Portfolio</li>
                         <div id="dropdown-content">

@@ -1,0 +1,32 @@
+#logo {
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#nav {
+    display: flex;
+}
+
+#navigation {
+    display: flex;
+    list-style: none;
+    padding-inline-start: 0;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.menuitem {
+    color: black;
+    text-decoration: none;
+}
+
+.menuitem:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+#dropdown-content {
+    
+}
