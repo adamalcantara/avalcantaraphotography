@@ -21,8 +21,23 @@ class Navbar extends Component {
     render() {
         return (
         <div>
-            <div className={this.state.clicked ? 'nav active' : 'nav'}>
-                {/* mobile navigation goes here */}
+            <div id="mobileNav">
+                <div id="mobileNavPieces">
+                    {/* mobile navigation goes here */}
+                    <img src={logosmall} id="logosmall"></img>
+                    <div id="burger" onClick={this.handleClick}>
+                        <div id="line1" className={this.state.clicked ? 'line1click' : ''}></div>
+                        <div id="line2" className={this.state.clicked ? 'line2click' : ''}></div>
+                        <div id="line3" className={this.state.clicked ? 'line3click' : ''}></div>
+                    </div>
+                </div>
+            </div>
+
+            <div className={this.state.clicked ? 'navbar active' : 'navbar'}>
+                <Link to="/about" className="navlinks" onClick={this.handleClick}>About</Link>
+                <Link to="/portraits" className="navlinks" onClick={this.handleClick}>Portraits</Link>
+                <Link to="/headshots" className="navlinks" onClick={this.handleClick}>Headshots</Link>
+                <Link to="/contact" className="navlinks" onClick={this.handleClick}>Contact</Link>
             </div>
 
             {/* start regular navigation */}
@@ -36,8 +51,8 @@ class Navbar extends Component {
                             <Link to="/headshots" className="menuitem">Headshots</Link>
                         </div>
                     </div>            
-                    <li><Link to="about" className="menuitem">About</Link></li>
-                    <li><Link to="contact" className="menuitem">Contact</Link></li>
+                    <li><Link to="/about" className="menuitem">About</Link></li>
+                    <li><Link to="/contact" className="menuitem">Contact</Link></li>
                 </ul>
 
                 <ul id="socialnav">
