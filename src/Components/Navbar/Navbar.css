@@ -12,8 +12,9 @@
     display: flex;
     width: 100%;
     font-weight: 300;
-    height: 150px;
+    height: 100px;
     align-items: center;
+    /* background-color: grey; */
 }
 
 #navigation {
@@ -120,6 +121,38 @@
 
 .line3click {
     transform: rotate(45deg) translate(-8px, -7px);
+}
+
+@media screen and (max-width: 1700px) {
+    #logo {
+        width: 300px;
+    }
+
+    .socialicon {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #logo {
+        width: 250px;
+    }
+
+    .socialicon {
+        font-size: 25px;
+    }
+
+    #linklogo {
+        width: 30%;
+    }
+
+    #navigation {
+        width: 40%;
+    }
+
+    #socialnav {
+        width: 30%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
