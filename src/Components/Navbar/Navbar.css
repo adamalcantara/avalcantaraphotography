@@ -1,27 +1,29 @@
 #linklogo {
-    margin-top: 20px;
     margin-left: 20px;
 }
 
 #logo {
     width: 400px;
     height: auto;
+
 }
 
 #nav {
     display: flex;
     width: 100%;
     font-weight: 300;
+    height: 150px;
+    background-color: darkgrey;
+    align-items: center;
 }
 
 #navigation {
-    
     list-style: none;
     padding-inline-start: 0;
     justify-content: space-between;
     font-size: 35px;
     display: flex;
-    margin: 45px auto;
+    margin: auto;
 }
 
 .menuitem {
@@ -61,7 +63,6 @@
 }
 
 #socialnav {
-    margin-top: 45px;
     margin-right: 40px;
     width: 150px;
     display: flex;
