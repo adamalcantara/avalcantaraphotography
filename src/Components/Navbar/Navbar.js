@@ -4,6 +4,11 @@ import logo from "../../img/logo/avalcantara.png"
 import logosmall from "../../img/logo/avalcantarasmall.png"
 import "./Navbar.css"
 
+// import icons
+import { FaFacebookF } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaTiktok } from 'react-icons/fa';
+
 class Navbar extends Component {
     // set state to false automatically
     state = { clicked: false }
@@ -33,6 +38,12 @@ class Navbar extends Component {
                     </div>            
                     <li><Link to="about" className="menuitem">About</Link></li>
                     <li><Link to="contact" className="menuitem">Contact</Link></li>
+                </ul>
+
+                <ul>
+                    <a href="https://fb.me/avalcantaraphotography" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+                    <a href="https://www.instagram.com/avalcantaraphotography/" target="_blank" rel='noopener noreferrer'><FaInstagram /></a>
+                    <a href="https://vm.tiktok.com/ZTda9nxjm/" target="_blank" rel="noopener noreferrer"><FaTiktok /></a>
                 </ul>
             </div>
         </div>
