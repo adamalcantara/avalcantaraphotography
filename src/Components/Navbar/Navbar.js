@@ -27,7 +27,7 @@ class Navbar extends Component {
 
             {/* start regular navigation */}
             <div id="nav">
-                <img src={logo} alt="logo" id="logo"></img>
+                <Link to="/" id="linklogo"><img src={logo} alt="logo" id="logo"></img></Link>
                 <ul id='navigation'>
                     <div id="dropdown">
                         <li id="dropbtn" className="menuitem">Portfolio</li>
@@ -40,10 +40,10 @@ class Navbar extends Component {
                     <li><Link to="contact" className="menuitem">Contact</Link></li>
                 </ul>
 
-                <ul>
-                    <a href="https://fb.me/avalcantaraphotography" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
-                    <a href="https://www.instagram.com/avalcantaraphotography/" target="_blank" rel='noopener noreferrer'><FaInstagram /></a>
-                    <a href="https://vm.tiktok.com/ZTda9nxjm/" target="_blank" rel="noopener noreferrer"><FaTiktok /></a>
+                <ul id="socialnav">
+                    <a href="https://fb.me/avalcantaraphotography" target="_blank" rel="noopener noreferrer"><FaFacebookF className='socialicon'/></a>
+                    <a href="https://www.instagram.com/avalcantaraphotography/" target="_blank" rel='noopener noreferrer'><FaInstagram className='socialicon'/></a>
+                    <a href="https://vm.tiktok.com/ZTda9nxjm/" target="_blank" rel="noopener noreferrer"><FaTiktok className='socialicon'/></a>
                 </ul>
             </div>
         </div>
