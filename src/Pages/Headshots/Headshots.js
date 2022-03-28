@@ -1,4 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
+import './Headshots.css';
+import CgClose from 'react-icons/cg'
+
+
+
 
  const Headshots = () => {
   return (
