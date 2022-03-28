@@ -26,7 +26,7 @@ class Navbar extends Component {
                 <div id="mobileNavPieces">
                     {/* mobile navigation goes here */}
                     <div>
-                        <img src={logosmall} id="logosmall"></img>
+                        <img src={logosmall} id="logosmall" alt="logo"></img>
                     </div>
                     <div id="burger" onClick={this.handleClick}>
                         <div id="line1" className={this.state.clicked ? 'line1click' : ''}></div>

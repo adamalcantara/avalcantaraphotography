@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import './Headshots.css';
-import CgClose from 'react-icons/cg';
 
 // import images
 import Img1 from '../../img/headshots/1.jpg';
@@ -39,6 +38,7 @@ import Img5 from '../../img/headshots/5.jpg';
 
   const getImg = (imgSrc) => {
     setTempImgSrc(imgSrc);
+
     setModal(true);
   }
 

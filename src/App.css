@@ -1,3 +1,7 @@
 * {
   font-family: 'Josefin Sans', sans-serif;
 }
+
+#pageContent {
+  margin-top: 10px;
+}

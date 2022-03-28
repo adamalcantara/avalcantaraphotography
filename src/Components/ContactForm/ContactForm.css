@@ -1,0 +1,18 @@
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#nameInput {
+    display: flex;
+}
+
+#firstNameInput {
+    display: flex;
+    flex-direction: column;
+}
+
+#lastNameInput {
+    display: flex;
+    flex-direction: column;
+}
