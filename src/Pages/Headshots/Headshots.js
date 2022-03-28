@@ -48,7 +48,7 @@ import Img5 from '../../img/headshots/5.jpg';
       {/* div containing the modal */}
       <div className={modal ? "modal open" : "modal"} onCLick={()=> setModal(false)}>
         <img src={tempImgSrc} />
-        <h1 onClick={()=> setModal(false)}>X</h1>
+        <h1 onClick={()=> setModal(false)} id="closeIcon">X</h1>
       </div>
 
       {/* div for the gallery */}
