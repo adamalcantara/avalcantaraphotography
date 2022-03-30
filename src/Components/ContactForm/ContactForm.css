@@ -35,3 +35,8 @@
     color: white;
     background-color: black;
 }
+
+#contactSubmit:hover {
+    background-color: rgb(58, 58, 58);
+    cursor: pointer;
+}
