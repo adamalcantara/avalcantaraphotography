@@ -7,16 +7,19 @@
 #nameInput {
     display: flex;
     margin-bottom: 20px;
+    justify-content: space-between;
 }
 
 #firstNameInput {
     display: flex;
     flex-direction: column;
+    width: 48%;
 }
 
 #lastNameInput {
     display: flex;
     flex-direction: column;
+    width: 48%;
 }
 
 #email {
@@ -25,6 +28,7 @@
 
 #message {
     margin-bottom: 20px;
+    height: 100px;
 }
 
 #contactSubmit {
