@@ -46,16 +46,16 @@ import Img5 from '../../img/headshots/5.jpg';
     <>
 
       {/* div containing the modal */}
-      <div className={modal ? "modal open" : "modal"} onCLick={()=> setModal(false)}>
+      <div className={modal ? "portraitModal portraitOpen" : "portraitModal"} onCLick={()=> setModal(false)}>
         <img src={tempImgSrc} />
-        <h1 onClick={()=> setModal(false)} id="closeIcon">X</h1>
+        <h1 onClick={()=> setModal(false)} id="portraitCloseIcon">X</h1>
       </div>
 
       {/* div for the gallery */}
-      <div className='gallery'>
+      <div className='portraitGallery'>
           {data.map((item, index)=>{
             return(
-              <div className='pics' key={index} onClick={()=> getImg(item.imgSrc)}>
+              <div className='portraitPics' key={index} onClick={()=> getImg(item.imgSrc)}>
                   <img src={item.imgSrc} style={{width: '100%'}} />
               </div>
             )

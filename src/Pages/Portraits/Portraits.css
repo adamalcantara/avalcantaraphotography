@@ -1,4 +1,4 @@
-.gallery {
+.portraitGallery {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
@@ -10,7 +10,7 @@
     margin: 0 auto;
 }
 
-.gallery .pics {
+.portraitGallery .portraitPics {
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
     cursor: pointer;
@@ -18,12 +18,12 @@
     display: inline-block;
 }
 
-.gallery .pics:hover {
+.portraitGallery .portraitPics:hover {
     filter: opacity(.8);
 }
 
 @media (max-width: 991px) {
-    .gallery {
+    .portraitGallery {
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
@@ -31,7 +31,7 @@
 }
 
 @media (max-width: 480px) {
-    .gallery {
+    .portraitGallery {
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;
@@ -44,7 +44,7 @@
 
 /* modal */
 
-.modal {
+.portraitModal {
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -62,13 +62,13 @@
     z-index: 999;
 }
 
-.modal.open {
+.portraitModal.portraitOpen {
     visibility: visible;
     opacity: 1;
     /* transform: scale(1); */
 }
 
-.modal img {
+.portraitModal img {
     width: auto;
     max-width: 70%;
     height: auto;
@@ -81,7 +81,7 @@
     
 }
 
-#closeIcon {
+#portraitCloseIcon {
     position: fixed;
     top: 10px;
     right: 10px;
