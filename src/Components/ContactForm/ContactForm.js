@@ -9,6 +9,7 @@ function ContactForm() {
     }
     return (
         <form onSubmit={handleSubmit} id="contactForm">
+            <p id="pleaseContact">Please fill out the form below to contact us.</p>
             {/* name inputs */}
             <div id="nameInput">
                 <div id="firstNameInput">

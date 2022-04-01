@@ -4,6 +4,10 @@
     width: 500px;
 }
 
+#pleaseContact {
+    font-size: 20px;
+}
+
 #nameInput {
     display: flex;
     margin-bottom: 20px;
