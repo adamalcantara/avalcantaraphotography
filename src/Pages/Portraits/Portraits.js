@@ -46,7 +46,7 @@ import Img5 from '../../img/headshots/5.jpg';
     <>
 
       {/* div containing the modal */}
-      <div className={modal ? "portraitModal portraitOpen" : "portraitModal"} onCLick={()=> setModal(false)}>
+      <div className={modal ? "portraitModal portraitOpen" : "portraitModal"} onClick={()=> setModal(false)}>
         <img src={tempImgSrc} />
         <h1 onClick={()=> setModal(false)} id="portraitCloseIcon">X</h1>
       </div>
