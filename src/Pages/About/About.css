@@ -15,6 +15,13 @@
 
 #topimg {
     width: 50%;
+    height: auto;
+}
+
+#verticalImg1 {
+    width: 25%;
+    height: auto;
+    float: left;
 }
 
 #testimonials {
