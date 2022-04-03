@@ -48,6 +48,7 @@ class Navbar extends Component {
             <div id="nav">
                 <Link to="/" id="linklogo"><img src={logo} alt="logo" id="logo"></img></Link>
                 <ul id='navigation'>
+                    <li><Link to="/" className="menuitem">Home</Link></li>
                     <div id="dropdown">
                         <li id="dropbtn" className="menuitem">Portfolio</li>
                         <div id="dropdown-content">

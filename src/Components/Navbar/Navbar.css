@@ -135,14 +135,11 @@
 @media screen and (max-width: 1300px) {
     #logo {
         width: 250px;
+        height: auto;
     }
 
     .socialicon {
         font-size: 25px;
-    }
-
-    #linklogo {
-        width: 30%;
     }
 
     #navigation {
