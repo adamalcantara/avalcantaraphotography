@@ -1,7 +1,4 @@
-#linklogo {
-    margin-left: 20px;
-    width: 33%;
-}
+
 
 #logo {
     width: 400px;
@@ -10,6 +7,7 @@
 
 #nav {
     display: flex;
+    flex-direction: column;
     width: 100%;
     font-weight: 300;
     height: 100px;
@@ -23,7 +21,8 @@
     justify-content: space-between;
     font-size: 35px;
     display: flex;
-    width: 33%;
+    width: 35%;
+    margin: 25px 0;
 }
 
 .menuitem {
@@ -64,9 +63,9 @@
 
 #socialnav {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     cursor: default;
-    width: 33%;
+    margin: 0 0;
 }
 
 .socialicon {
