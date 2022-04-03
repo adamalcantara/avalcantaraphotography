@@ -18,20 +18,41 @@
     height: auto;
 }
 
-#verticalImg1 {
-    width: 25%;
+#adambio {
+    margin-bottom: 50px;
+}
+
+#adamheader {
+    font-size: 30px;
+}
+
+#adamheadshot {
+    width: 15%;
     height: auto;
     float: left;
     margin-right: 20px;
 }
 
+br {
+    display: block;
+    margin: 20px 0;
+    line-height: 20px;
+    content: " ";
+ }
+
+#valerieheader {
+    text-align: right;
+    font-size: 30px;
+}
+
 #verticalImg2 {
-    width: 25%;
+    width: 15%;
     height: auto;
     float: right;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 #testimonials {
     display: flex;
+    margin-top: 30px;
 }
