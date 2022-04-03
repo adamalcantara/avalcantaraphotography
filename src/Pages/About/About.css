@@ -25,6 +25,13 @@
     margin-right: 20px;
 }
 
+#verticalImg2 {
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-right: 20px;
+}
+
 #testimonials {
     display: flex;
 }
