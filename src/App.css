@@ -5,3 +5,9 @@
 #pageContent {
   margin-top: 250px;
 }
+
+@media screen and (max-width: 900px) {
+  #pageContent {
+    margin-top: 0px;
+  }
+}
