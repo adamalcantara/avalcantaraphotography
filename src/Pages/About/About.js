@@ -14,7 +14,7 @@ const About = () => {
       </div>
 
       <div id="adambio">
-        <h2 id="adamheader">Adam</h2>
+        <h2 className="headers">Adam</h2>
         <p>
             <img src={adam} id="adamheadshot"></img>
             I have been fascinated with photography for as long as I can remember. I purchased my first DSLR while studying film at Interlochen Arts Academy in Northern Michigan, and found that the challenge of telling a story in a single image was even more compelling than filmmaking.
@@ -30,7 +30,7 @@ const About = () => {
       </div>
 
       <div id="valeriebio">
-        <h2 id="valerieheader">Valerie</h2>
+        <h2 id="valerieheader" className="headers">Valerie</h2>
         <p><img src={valerie} id="verticalImg2"></img>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         
         <br></br>
