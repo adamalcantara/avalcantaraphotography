@@ -53,6 +53,14 @@ br {
     margin-left: 20px;
 }
 
+#testimonialSection {
+    margin-top: 100px;
+}
+
+#testimonialHeader {
+    text-align: center;
+}
+
 #testimonials {
     display: flex;
     margin-top: 30px;
