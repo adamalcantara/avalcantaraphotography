@@ -33,6 +33,7 @@
 .menuitem:hover {
     color: grey;
     cursor: pointer;
+    border-bottom: 1px solid grey;
 }
 
 #dropdown-content {
