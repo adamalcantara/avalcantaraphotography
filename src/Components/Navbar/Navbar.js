@@ -48,7 +48,7 @@ class Navbar extends Component {
             <div id="nav">
                 <Link to="/" id="linklogo"><img src={logo} alt="logo" id="logo"></img></Link>
                 <ul id='navigation'>
-                    <li><Link to="/" className="menuitem">Home</Link></li>
+                    <li><Link to="/" className="menuitem staticmenu">Home</Link></li>
                     <div id="dropdown">
                         <li id="dropbtn" className="menuitem">Portfolio</li>
                         <div id="dropdown-content">
@@ -56,8 +56,8 @@ class Navbar extends Component {
                             <Link to="/headshots" className="menuitem">Headshots</Link>
                         </div>
                     </div>            
-                    <li><Link to="/about" className="menuitem">About</Link></li>
-                    <li><Link to="/contact" className="menuitem">Contact</Link></li>
+                    <li><Link to="/about" className="menuitem staticmenu">About</Link></li>
+                    <li><Link to="/contact" className="menuitem staticmenu">Contact</Link></li>
                 </ul>
 
                 <ul id="socialnav">
