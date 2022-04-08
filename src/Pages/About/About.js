@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 import adam from "../../img/adam_headshot.jpg";
 import valerie from "../../img/valerie_headshot.jpg";
-import beach from "../../img/beach.jpg";
+import beach from "../../img/usbeach.jpg";
 
 const About = () => {
   return (
