@@ -1,5 +1,15 @@
+#introDiv {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
 #weAre {
-    font-size: 22px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
 }
 
 #learnMore {
@@ -8,7 +18,8 @@
     border-radius: 5px;
     background-color: black;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
+    width: 235px;
 }
 
 #learnMore:hover {
