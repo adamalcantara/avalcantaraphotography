@@ -1,0 +1,17 @@
+#weAre {
+    font-size: 22px;
+}
+
+#learnMore {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+#learnMore:hover {
+    background-color: rgb(58, 58, 58);
+    cursor: pointer;
+}

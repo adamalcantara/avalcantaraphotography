@@ -10,6 +10,10 @@
     align-items: center;
 }
 
+#introText {
+    margin-top: 40px !important;
+}
+
 #about p {
     font-size: 22px;
 }
