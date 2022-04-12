@@ -8,6 +8,7 @@ import Deck from "../../Components/Deck/Deck"
 const Home = () => {
   return (
     <div>
+      <Deck />
       <div id="introDiv">
           <p id="weAre">We are Adam and Valerie Alcantara, a husband and wife photography team located in Orlando Florida! We specialize in headshots, portraits, and weddings.</p>
           <Link to="/about" id="learnMore">Learn More</Link>
