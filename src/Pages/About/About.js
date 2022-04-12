@@ -19,22 +19,18 @@ const About = () => {
             <img src={adam} id="adamheadshot" alt="Adam's headshot"></img>
             I have been fascinated with photography for as long as I can remember. I purchased my first DSLR while studying film at Interlochen Arts Academy in Northern Michigan, and found that the challenge of telling a story in a single image was even more compelling than filmmaking.
 
-            {/* <br></br> */}
             <div className="spacer"></div>
 
             My early photographic endeavors were in live concert photography. I have been fortunate to photograph concerts across the country, including prestigious venues like Red Rocks Amphitheater in Colorado. My concert photos have been featured in publications such as Modern Drummer, New York Magazine, and Playbill at Carnegie Hall.
 
-            {/* <br></br> */}
             <div className="spacer"></div>
 
             When I relocated to Orlando in 2016, I turned my focus to portrait, wedding, and headshot photography. I have been fortunate to win awards for my work, and to have been published in a book.
 
-            {/* <br></br> */}
             <div className="spacer"></div>
 
             I am very curious about light, and the various ways it can be used to create visually compelling images. My interest in lighting has led me to explore the art of cinematic lighting, and the way it can be used to create eye-catching images from scratch.
 
-            {/* <br></br> */}
             <div className="spacer"></div>
 
             My photographic passion is capturing spectacular images that preserve memories and tell stories. I can&apos;t wait to tell yours.
