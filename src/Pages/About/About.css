@@ -10,10 +10,6 @@
     align-items: center;
 }
 
-/* #introText {
-    margin-top: 40px !important;
-} */
-
 #about p {
     font-size: 22px;
 }
@@ -44,7 +40,11 @@ br {
     margin: 30px 0;
     line-height: 30px;
     content: " ";
- }
+}
+
+.spacer {
+    height: 30px;
+}
 
 #valerieheader {
     text-align: right;
