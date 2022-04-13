@@ -27,6 +27,15 @@ function CarouselComponent() {
                 <div>
                     <img src={slider3} />
                 </div>
+                <div>
+                    <img src={slider4} />
+                </div>
+                <div>
+                    <img src={slider5} />
+                </div>
+                <div>
+                    <img src={slider6} />
+                </div>
             </Carousel>
         </div>
     );
