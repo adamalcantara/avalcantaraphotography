@@ -17,7 +17,7 @@ import slider6 from "../../img/slider/6.jpg"
 function CarouselComponent() {
     return (
         <div className="carousel-wrapper">
-            <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} showStatus={false} interval={4000} transitionTime={450} animationHandler="fade" width="50%">
+            <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} showStatus={false} interval={4000} transitionTime={450} animationHandler="fade" className="main-slide">
                 <div>
                     <img src={slider1} />
                 </div>
