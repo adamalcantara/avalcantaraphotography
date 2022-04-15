@@ -28,3 +28,9 @@
     background-color: rgb(58, 58, 58);
     cursor: pointer;
 }
+
+@media screen and (max-width: 1300px) {
+    #introDiv {
+        width: 65%;
+    }
+}
