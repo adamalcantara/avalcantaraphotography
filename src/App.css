@@ -7,6 +7,12 @@
   margin-bottom: 75px;
 }
 
+@media screen and (max-width: 1700px) {
+  #pageContent {
+    margin-top: 225px;
+  }
+}
+
 /* Get rid of margin when page shrinks to 900px */
 
 @media screen and (max-width: 900px) {
