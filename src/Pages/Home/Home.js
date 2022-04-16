@@ -4,8 +4,6 @@ import "./Home.css"
 
 import Carousel from "../../Components/CarouselComponent/CarouselComponent"
 
-import usBeach from "../../img/usbeach.jpg"
-
 const Home = () => {
   return (
     <div>
@@ -15,17 +13,6 @@ const Home = () => {
           <Link to="/about" id="learnMore">Learn More</Link>
       </div>
 
-      <div id="photoLinks">
-
-        <div id="headshots" className="photoTypes">
-          <div className='overlay'>
-            Headshots
-          </div>
-        </div>
-
-        <div id="portraits" className="photoTypes">
-        </div>
-      </div>
     </div>
   )
 }
