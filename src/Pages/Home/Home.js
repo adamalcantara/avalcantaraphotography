@@ -4,7 +4,7 @@ import "./Home.css"
 
 import Carousel from "../../Components/CarouselComponent/CarouselComponent"
 
-import usbeach from "../../img/usbeach.jpg"
+
 
 const Home = () => {
   return (
