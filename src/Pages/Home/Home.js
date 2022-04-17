@@ -1,10 +1,8 @@
-import React from 'react'
-import { Link } from "react-router-dom"
-import "./Home.css"
+import React from 'react';
+import { Link } from "react-router-dom";
+import "./Home.css";
 
 import Carousel from "../../Components/CarouselComponent/CarouselComponent"
-
-
 
 const Home = () => {
   return (
@@ -16,13 +14,16 @@ const Home = () => {
       </div>
 
       <div id="photoTypes">
-        <div id="headshots" className="services">
-          <div className='overlay'>Headshots</div>
-        </div>
 
-        <div id="portraits" className="services">
-          <div className='overlay'>Portraits</div>
-        </div>
+          <Link to="/headshots" id="headshots" className="services">
+            <div className='overlay'>Headshots</div>
+          </Link>
+        
+
+          <Link to="/portraits" id="portraits" className="services">
+            <div className='overlay'>Portraits</div>
+          </Link>
+          
       </div>
     </div>
   )

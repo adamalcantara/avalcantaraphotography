@@ -8,7 +8,7 @@
 }
 
 #weAre {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 300;
     text-align: center;
 }
@@ -39,7 +39,6 @@
 }
 
 .services {
-    background-color: red;
     width: 45%;
     /* height: 400px; */
     aspect-ratio: auto 3 / 2;
@@ -64,7 +63,13 @@
 }
 
 #headshots {
-    background-image: url();
+    background-image: url(../../img/home/headshots.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#portraits {
+    background-image: url(../../img/home/portraits.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -81,6 +86,9 @@
 
 
 @media screen and (max-width: 1300px) {
+    #weAre {
+        font-size: 25px;
+    }
     #introDiv {
         width: 65%;
     }
