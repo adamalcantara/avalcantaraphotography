@@ -61,10 +61,19 @@
 
 #testimonials {
     display: flex;
+    justify-content: space-between;
     margin-top: 30px;
+    background-color: red;
+}
+
+.testimonialCard {
+    width: 33%;
+}
+
+.testimonialSig {
+    text-align: right;
 }
 
 #middleTestimonial {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 0 40px;
 }

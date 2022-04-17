@@ -53,9 +53,19 @@ const About = () => {
       <div id="testimonialSection">
         <h2 className="headers" id="testimonialHeader">Testimonials</h2>
         <div id="testimonials">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p id="middleTestimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+          <div className="testimonialCard">
+                <p>Our engagement photo session with Adam &amp; Valerie was an absolute dream come true. From the location, to our concept, to the photo shoot experience - we couldn&#39;t have asked for a better experience. Their vision, kindness, &amp; professionalism truly delivered stunning photographs that we&#39;ll treasure for a lifetime.</p>
+                <p className='testimonialSig'>-Madison</p>
+          </div>
+          
+          <div className="testimonialCard" id="middleTestimonial">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+
+          <div className="testimonialCard">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </div>
       </div>
 
