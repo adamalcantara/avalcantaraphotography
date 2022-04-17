@@ -17,6 +17,10 @@ const Home = () => {
         <div id="headshots" className="services">
 
         </div>
+
+        <div id="portraits" className="services">
+
+        </div>
       </div>
     </div>
   )

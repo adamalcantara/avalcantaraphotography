@@ -33,6 +33,9 @@
 #photoTypes {
     width: 65%;
     margin: 45px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .services {
