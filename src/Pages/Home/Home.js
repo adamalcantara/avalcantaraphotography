@@ -15,7 +15,7 @@ const Home = () => {
 
       <div id="photoTypes">
         <div id="headshots" className="services">
-
+          <div className='overlay'>Headshots</div>
         </div>
 
         <div id="portraits" className="services">
