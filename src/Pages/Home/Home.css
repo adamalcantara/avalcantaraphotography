@@ -58,6 +58,13 @@
     align-items: center;
     color: white;
     font-size: 45px;
+    opacity: 0;
+}
+
+#headshots:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+    transition: .3s ease;
 }
 
 
