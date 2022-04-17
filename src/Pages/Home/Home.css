@@ -30,7 +30,16 @@
     cursor: pointer;
 }
 
+#photoTypes {
+    width: 65%;
+    margin: 0 auto;
+}
 
+.services {
+    background-color: red;
+    width: 45%;
+    height: 200px;
+}
 
 
 

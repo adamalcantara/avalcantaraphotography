@@ -13,6 +13,11 @@ const Home = () => {
           <Link to="/about" id="learnMore">Learn More</Link>
       </div>
 
+      <div id="photoTypes">
+        <div id="headshots" className="services">
+
+        </div>
+      </div>
     </div>
   )
 }
