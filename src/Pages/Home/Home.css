@@ -1,4 +1,4 @@
-#introDiv {
+.textDivs {
     width: 850px;
     display: flex;
     flex-direction: column;
@@ -7,13 +7,13 @@
     margin-top: 20px;
 }
 
-#weAre {
+.homeText {
     font-size: 30px;
     font-weight: 300;
     text-align: center;
 }
 
-#learnMore {
+.learnMore {
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -83,6 +83,8 @@
     opacity: 1;
     cursor: pointer;
 }
+
+
 
 
 @media screen and (max-width: 1300px) {
