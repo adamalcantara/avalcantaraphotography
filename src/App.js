@@ -9,6 +9,8 @@ import Contact from "./Pages/Contact/Contact";
 import Portraits from "./Pages/Portraits/Portraits";
 import Headshots from "./Pages/Headshots/Headshots";
 
+import Footer from "./Components/Footer/Footer"
+
 function App() {
   return (
     <Router>
@@ -21,6 +23,7 @@ function App() {
             <Route exact path="/portraits" component={Portraits} />
             <Route exact path="/headshots" component={Headshots}/>
         </div>
+        <Footer />
       </div>
     </Router>
 

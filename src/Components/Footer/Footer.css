@@ -1,0 +1,14 @@
+#footer {
+    text-align: center;
+}
+
+#devLink {
+    text-decoration: none;
+    color: black;
+}
+
+#devLink:hover {
+    cursor: pointer;
+    color: grey;
+    border-bottom: 1px solid grey;
+}
