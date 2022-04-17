@@ -98,11 +98,8 @@
 
 @media screen and (max-width: 900px) {
     #photoTypes {
-        width: 65%;
-        margin: 45px auto;
-        display: flex;
+        width: 85%;
         flex-direction: column;
-        justify-content: space-between;
     }
 
     .services {
@@ -115,6 +112,6 @@
 
     .overlay {
         opacity: 1;
-        font-size: 25px;
+        font-size: 30px;
     }
 }
