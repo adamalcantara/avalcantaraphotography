@@ -67,6 +67,12 @@
     transition: .3s ease;
 }
 
+#portraits:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
 
 
 

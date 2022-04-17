@@ -21,7 +21,7 @@ const Home = () => {
         </div>
 
         <div id="portraits" className="services">
-
+          <div className='overlay'>Portraits</div>
         </div>
       </div>
     </div>
