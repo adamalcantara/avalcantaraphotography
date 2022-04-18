@@ -47,7 +47,7 @@ import Img5 from '../../img/headshots/5.jpg';
 
       {/* div containing the modal */}
       <div className={modal ? "portraitModal portraitOpen" : "portraitModal"} onClick={()=> setModal(false)}>
-        <img src={tempImgSrc} />
+        <img src={tempImgSrc} alt="lightbox"/>
         <h1 onClick={()=> setModal(false)} id="portraitCloseIcon">X</h1>
       </div>
 
@@ -56,7 +56,7 @@ import Img5 from '../../img/headshots/5.jpg';
           {data.map((item, index)=>{
             return(
               <div className='portraitPics' key={index} onClick={()=> getImg(item.imgSrc)}>
-                  <img src={item.imgSrc} style={{width: '100%'}} />
+                  <img src={item.imgSrc} style={{width: '100%'}} alt="gallery" />
               </div>
             )
           })}

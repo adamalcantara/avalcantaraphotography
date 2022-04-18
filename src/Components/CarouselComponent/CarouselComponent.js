@@ -19,22 +19,22 @@ function CarouselComponent() {
         <div className="carousel-wrapper">
             <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} showStatus={false} interval={4000} transitionTime={450} animationHandler="fade" className="main-slide">
                 <div>
-                    <img src={slider1} />
+                    <img src={slider1} alt="outdoor cinematic headshot" />
                 </div>
                 <div>
-                    <img src={slider2} />
+                    <img src={slider2} alt="studio headshot"/>
                 </div>
                 <div>
-                    <img src={slider3} />
+                    <img src={slider3} alt="black and white umbrella"/>
                 </div>
                 <div>
-                    <img src={slider4} />
+                    <img src={slider4} alt="organist portrait"/>
                 </div>
                 <div>
-                    <img src={slider5} />
+                    <img src={slider5} alt="wedding ring"/>
                 </div>
                 <div>
-                    <img src={slider6} />
+                    <img src={slider6} alt="outdoor flash composite"/>
                 </div>
             </Carousel>
         </div>
