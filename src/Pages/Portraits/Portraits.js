@@ -45,16 +45,16 @@ import portraits13 from '../../img/portraits/portraits13.jpg';
       imgSrc: portraits5,
     },
     {
+      id: 8,
+      imgSrc: portraits8,
+    },
+    {
       id: 6,
       imgSrc: portraits6,
     },
     {
       id: 7,
       imgSrc: portraits7,
-    },
-    {
-      id: 8,
-      imgSrc: portraits8,
     },
     {
       id: 11,
