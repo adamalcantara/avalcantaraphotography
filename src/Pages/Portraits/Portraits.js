@@ -13,14 +13,20 @@ import portraits8 from '../../img/portraits/portraits8.jpg';
 import portraits9 from '../../img/portraits/portraits9.jpg';
 import portraits10 from '../../img/portraits/portraits10.jpg';
 import portraits11 from '../../img/portraits/portraits11.jpg';
+import portraits12 from '../../img/portraits/portraits12.jpg';
+import portraits13 from '../../img/portraits/portraits13.jpg';
 
 
  const Portraits = () => {
 
   let data = [
     {
-      id: 1,
-      imgSrc: portraits1,
+      id: 4,
+      imgSrc: portraits4,
+    },
+    {
+      id: 12,
+      imgSrc: portraits12,
     },
     {
       id: 2,
@@ -31,8 +37,8 @@ import portraits11 from '../../img/portraits/portraits11.jpg';
       imgSrc: portraits3,
     },
     {
-      id: 4,
-      imgSrc: portraits4,
+      id: 9,
+      imgSrc: portraits9,
     },
     {
       id: 5,
@@ -51,16 +57,20 @@ import portraits11 from '../../img/portraits/portraits11.jpg';
       imgSrc: portraits8,
     },
     {
-      id: 9,
-      imgSrc: portraits9,
+      id: 11,
+      imgSrc: portraits11,
+    },
+    {
+      id: 1,
+      imgSrc: portraits1,
+    },
+    {
+      id: 13,
+      imgSrc: portraits13,
     },
     {
       id: 10,
       imgSrc: portraits10,
-    },
-    {
-      id: 11,
-      imgSrc: portraits11,
     },
   ]
   const [modal, setModal] = useState(false);
