@@ -2,35 +2,65 @@ import React, {useState} from 'react';
 import './Portraits.css';
 
 // import images
-// import Img1 from '../../img/headshots/1.jpg';
-// import Img2 from '../../img/headshots/2.jpg';
-// import Img3 from '../../img/headshots/3.jpg';
-import Img4 from '../../img/headshots/4.jpg';
-import Img5 from '../../img/headshots/5.jpg';
+import portraits1 from '../../img/portraits/portraits1.jpg';
+import portraits2 from '../../img/portraits/portraits2.jpg';
+import portraits3 from '../../img/portraits/portraits3.jpg';
+import portraits4 from '../../img/portraits/portraits4.jpg';
+import portraits5 from '../../img/portraits/portraits5.jpg';
+import portraits6 from '../../img/portraits/portraits6.jpg';
+import portraits7 from '../../img/portraits/portraits7.jpg';
+import portraits8 from '../../img/portraits/portraits8.jpg';
+import portraits9 from '../../img/portraits/portraits9.jpg';
+import portraits10 from '../../img/portraits/portraits10.jpg';
+import portraits11 from '../../img/portraits/portraits11.jpg';
 
 
  const Portraits = () => {
 
   let data = [
-    // {
-    //   id: 1,
-    //   imgSrc: Img1,
-    // },
-    // {
-    //   id: 2,
-    //   imgSrc: Img2,
-    // },
-    // {
-    //   id: 3,
-    //   imgSrc: Img3,
-    // },
+    {
+      id: 1,
+      imgSrc: portraits1,
+    },
+    {
+      id: 2,
+      imgSrc: portraits2,
+    },
+    {
+      id: 3,
+      imgSrc: portraits3,
+    },
     {
       id: 4,
-      imgSrc: Img4,
+      imgSrc: portraits4,
     },
     {
       id: 5,
-      imgSrc: Img5,
+      imgSrc: portraits5,
+    },
+    {
+      id: 6,
+      imgSrc: portraits6,
+    },
+    {
+      id: 7,
+      imgSrc: portraits7,
+    },
+    {
+      id: 8,
+      imgSrc: portraits8,
+    },
+    {
+      id: 9,
+      imgSrc: portraits9,
+    },
+    {
+      id: 10,
+      imgSrc: portraits10,
+    },
+    {
+      id: 11,
+      imgSrc: portraits11,
     },
   ]
   const [modal, setModal] = useState(false);
