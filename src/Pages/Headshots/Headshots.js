@@ -2,11 +2,17 @@ import React, {useState} from 'react';
 import './Headshots.css';
 
 // import images
-import Img1 from '../../img/headshots/1.jpg';
-import Img2 from '../../img/headshots/2.jpg';
-import Img3 from '../../img/headshots/3.jpg';
-import Img4 from '../../img/headshots/4.jpg';
-import Img5 from '../../img/headshots/5.jpg';
+import headshot1 from '../../img/headshots/headshot1.jpg';
+import headshot2 from '../../img/headshots/headshot2.jpg';
+import headshot3 from '../../img/headshots/headshot3.jpg';
+import headshot4 from '../../img/headshots/headshot4.jpg';
+import headshot5 from '../../img/headshots/headshot5.jpg';
+import headshot6 from '../../img/headshots/headshot6.jpg';
+import headshot7 from '../../img/headshots/headshot7.jpg';
+import headshot8 from '../../img/headshots/headshot8.jpg';
+import headshot9 from '../../img/headshots/headshot9.jpg';
+import headshot10 from '../../img/headshots/headshot10.jpg';
+import headshot11 from '../../img/headshots/headshot11.jpg';
 
 
  const Headshots = () => {
@@ -14,23 +20,47 @@ import Img5 from '../../img/headshots/5.jpg';
   let data = [
     {
       id: 1,
-      imgSrc: Img1,
+      imgSrc: headshot1,
     },
     {
       id: 2,
-      imgSrc: Img2,
+      imgSrc: headshot2,
     },
     {
       id: 3,
-      imgSrc: Img3,
+      imgSrc: headshot3,
     },
     {
       id: 4,
-      imgSrc: Img4,
+      imgSrc: headshot4,
     },
     {
       id: 5,
-      imgSrc: Img5,
+      imgSrc: headshot5,
+    },
+    {
+      id: 6,
+      imgSrc: headshot6,
+    },
+    {
+      id: 7,
+      imgSrc: headshot7,
+    },
+    {
+      id: 8,
+      imgSrc: headshot8,
+    },
+    {
+      id: 9,
+      imgSrc: headshot9,
+    },
+    {
+      id: 10,
+      imgSrc: headshot10,
+    },
+    {
+      id: 11,
+      imgSrc: headshot11,
     },
   ]
   const [modal, setModal] = useState(false);
