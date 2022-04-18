@@ -31,13 +31,14 @@ import headshot11 from '../../img/headshots/headshot11.jpg';
       imgSrc: headshot3,
     },
     {
-      id: 4,
-      imgSrc: headshot4,
-    },
-    {
       id: 5,
       imgSrc: headshot5,
     },
+    {
+      id: 4,
+      imgSrc: headshot4,
+    },
+    
     {
       id: 6,
       imgSrc: headshot6,
