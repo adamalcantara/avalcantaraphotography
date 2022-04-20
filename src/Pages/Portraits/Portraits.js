@@ -16,6 +16,8 @@ import portraits11 from '../../img/portraits/portraits11.jpg';
 import portraits12 from '../../img/portraits/portraits12.jpg';
 import portraits13 from '../../img/portraits/portraits13.jpg';
 
+import { IoMdClose } from "react-icons/io";
+
 
  const Portraits = () => {
 
@@ -88,7 +90,7 @@ import portraits13 from '../../img/portraits/portraits13.jpg';
       {/* div containing the modal */}
       <div className={modal ? "portraitModal portraitOpen" : "portraitModal"} onClick={()=> setModal(false)}>
         <img src={tempImgSrc} alt="lightbox"/>
-        <h1 onClick={()=> setModal(false)} id="portraitCloseIcon">X</h1>
+        <h1 onClick={()=> setModal(false)} id="portraitCloseIcon"><IoMdClose /></h1>
       </div>
 
       {/* div for the gallery */}

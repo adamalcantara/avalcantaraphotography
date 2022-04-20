@@ -14,6 +14,8 @@ import headshot9 from '../../img/headshots/headshot9.jpg';
 import headshot10 from '../../img/headshots/headshot10.jpg';
 import headshot11 from '../../img/headshots/headshot11.jpg';
 
+import { IoMdClose } from "react-icons/io";
+
 
  const Headshots = () => {
 
@@ -80,7 +82,7 @@ import headshot11 from '../../img/headshots/headshot11.jpg';
       {/* div containing the modal */}
       <div className={modal ? "modal open" : "modal"} onClick={()=> setModal(false)}>
         <img src={tempImgSrc} alt="lightbox"/>
-        <h1 onClick={()=> setModal(false)} id="closeIcon">X</h1>
+        <h1 onClick={()=> setModal(false)} id="closeIcon"><IoMdClose /></h1>
       </div>
 
       {/* div for the gallery */}
