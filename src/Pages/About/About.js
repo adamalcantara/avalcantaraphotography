@@ -61,10 +61,12 @@ const About = () => {
           
           <div className="testimonialCard" id="middleTestimonial">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className='testimonialSig'>-Madison</p>
           </div>
 
           <div className="testimonialCard">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className='testimonialSig'>-Madison</p>
           </div>
         </div>
       </div>
