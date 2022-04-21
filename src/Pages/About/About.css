@@ -95,3 +95,25 @@
         margin-top: 100px;
     }
 }
+
+@media screen and (max-width: 900px) {
+    #adamheadshot {
+        width: 50%;
+    }
+
+    #valerieheadshot {
+        width: 50%;
+    }
+
+    #testimonials {
+        flex-direction: column;
+    }
+
+    .testimonialCard {
+        width: 100%;
+    }
+
+    #middleTestimonial {
+        margin: 0 0;
+    }
+}
