@@ -77,3 +77,21 @@
 #middleTestimonial {
     margin: 0 40px;
 }
+
+@media screen and (max-width: 1700px) {
+    #topimg {
+        width: 60%;
+    }
+
+    #adamheadshot {
+        width: 40%;
+    }
+
+    #valerieheadshot {
+        width: 40%;
+    }
+
+    #testimonialSection {
+        margin-top: 100px;
+    }
+}
