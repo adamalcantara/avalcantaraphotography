@@ -8,6 +8,7 @@ import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Portraits from "./Pages/Portraits/Portraits";
 import Headshots from "./Pages/Headshots/Headshots";
+import Weddings from "./Pages/Weddings/Weddings";
 
 import Footer from "./Components/Footer/Footer"
 
@@ -22,6 +23,7 @@ function App() {
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/portraits" component={Portraits} />
             <Route exact path="/headshots" component={Headshots}/>
+            <Route exact path="/weddings" component={Weddings} />
         </div>
         <Footer />
       </div>
