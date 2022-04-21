@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom"
 import logo from "../../img/logo/avalcantara.png"
-import logosmall from "../../img/logo/avalcantarasmall.png"
+import logosmall from "../../img/logo/avalcantaraphotographyside.png"
 import "./Navbar.css"
 
 // import icons
