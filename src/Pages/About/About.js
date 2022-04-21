@@ -64,12 +64,12 @@ const About = () => {
                 <p className='testimonialSig'>-Madison</p>
           </div>
 
-          <div className="testimonialCard">
+          <div className="testimonialCard" id="middleTestimonial">
                 <p>"I can highly recommend A.V. Alcantara Photography to anyone who&#39;s looking for creativity, and a result that&#39;s above and beyond the typical photo studio approach.”</p>
                 <p className='testimonialSig'>-Larry</p>
           </div>
           
-          <div className="testimonialCard" id="middleTestimonial">
+          <div className="testimonialCard">
                 <p>“Getting photographed by Adam &amp; Valerie was such a joy. My boyfriend and I have never had professional photos taken before but they made it easy and comfortable for the both of us. The photos speak for themselves- beautiful!”</p>
                 <p className='testimonialSig'>-Sarah</p>
           </div>
