@@ -6,7 +6,7 @@ import bowling from "../../img/bowling.jpg"
 const Contact = () => {
   return (
     <div id="contactPage">
-      <img src={bowling} id="bowling" alt="contact us"></img>
+      {/* <img src={bowling} id="bowling" alt="contact us"></img> */}
       <ContactForm />
     </div>
   )
