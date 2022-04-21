@@ -63,16 +63,17 @@ const About = () => {
                 <p>"Our engagement photo session with Adam &amp; Valerie was an absolute dream come true. From the location, to our concept, to the photo shoot experience - we couldn&#39;t have asked for a better experience. Their vision, kindness, &amp; professionalism truly delivered stunning photographs that we&#39;ll treasure for a lifetime."</p>
                 <p className='testimonialSig'>-Madison</p>
           </div>
+
+          <div className="testimonialCard">
+                <p>"I can highly recommend A.V. Alcantara Photography to anyone who&#39;s looking for creativity, and a result that&#39;s above and beyond the typical photo studio approach.”</p>
+                <p className='testimonialSig'>-Larry</p>
+          </div>
           
           <div className="testimonialCard" id="middleTestimonial">
                 <p>“Getting photographed by Adam &amp; Valerie was such a joy. My boyfriend and I have never had professional photos taken before but they made it easy and comfortable for the both of us. The photos speak for themselves- beautiful!”</p>
                 <p className='testimonialSig'>-Sarah</p>
           </div>
-
-          <div className="testimonialCard">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p className='testimonialSig'>-Madison</p>
-          </div>
+          
         </div>
       </div>
 
