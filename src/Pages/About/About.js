@@ -65,8 +65,8 @@ const About = () => {
           </div>
           
           <div className="testimonialCard" id="middleTestimonial">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p className='testimonialSig'>-Madison</p>
+                <p>“Getting photographed by Adam &amp; Valerie was such a joy. My boyfriend and I have never had professional photos taken before but they made it easy and comfortable for the both of us. The photos speak for themselves- beautiful!”</p>
+                <p className='testimonialSig'>-Sarah</p>
           </div>
 
           <div className="testimonialCard">
