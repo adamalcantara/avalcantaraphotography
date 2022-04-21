@@ -117,3 +117,19 @@
         margin: 0 0;
     }
 }
+
+@media screen and (max-width: 500px) {
+    #topimg {
+        width: 100%;
+    }
+
+    #adamheadshot {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #valerieheadshot {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
