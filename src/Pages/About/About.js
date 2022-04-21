@@ -39,10 +39,15 @@ const About = () => {
 
       <div id="valeriebio">
         <h2 id="valerieheader" className="headers">Valerie</h2>
-        <p><img src={valerie} id="valerieheadshot" alt="Valerie's headshot"></img>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        
-        <br></br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <p><img src={valerie} id="valerieheadshot" alt="Valerie's headshot"></img>I have had a camera in my hand since I was a kid. My time living abroad had a profound affect on my drive to visually document life’s beauty. I earned my Bachelors degree in Film Studies, learning many techniques of successful visual storytelling which translated well into photography.
+
+        <div className="spacer"></div>
+
+        After living in Europe, I spent time working in a darkroom learning the process of analog photography. This experience led me to further understand and appreciate the freedom of digital photography, and these days I focus on digital photography.
+
+        <div className="spacer"></div>
+
+        When I am taking photos, I am most passionate about ensuring that whoever is in front of my camera is presented in their best light. I look forward to helping you feel confident and empowered in your photos.
           </p>
       </div>
 
