@@ -3,7 +3,11 @@ import { Carousel } from "react-responsive-carousel";
 
 function WeddingCarousel() {
     return(
-        <div>Wedding Carousel</div>
+        <div className="wedding-carousel-wrapper">
+            <Carousel>
+                
+            </Carousel>
+        </div>
     );
 }
 
