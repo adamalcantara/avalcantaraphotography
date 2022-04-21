@@ -200,3 +200,9 @@
         color: black;
     }
 }
+
+@media screen and (max-width: 500px) {
+    #logosmall {
+        width: 225px;
+    }
+}
