@@ -36,9 +36,11 @@ class Navbar extends Component {
                 </div>
 
                 <div className={this.state.clicked ? 'navbar active' : 'navbar'}>
+                    <Link to="/" className="navlinks" onClick={this.handleClick}>Home</Link>
                     <Link to="/about" className="navlinks" onClick={this.handleClick}>About</Link>
                     <Link to="/portraits" className="navlinks" onClick={this.handleClick}>Portraits</Link>
                     <Link to="/headshots" className="navlinks" onClick={this.handleClick}>Headshots</Link>
+                    <Link to="/weddings" className="navlinks" onClick={this.handleClick}>Weddings</Link>
                     <Link to="/contact" className="navlinks" onClick={this.handleClick}>Contact</Link>
                 </div>
             </div>
@@ -54,6 +56,7 @@ class Navbar extends Component {
                         <div id="dropdown-content">
                             <Link to="/portraits" className="menuitem">Portraits</Link>
                             <Link to="/headshots" className="menuitem">Headshots</Link>
+                            <Link to="/weddings" className="menuitem">Weddings</Link>
                         </div>
                     </div>            
                     <li><Link to="/about" className="menuitem staticmenu">About</Link></li>
