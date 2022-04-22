@@ -24,6 +24,10 @@ const Home = () => {
             <div className='overlay'>Portraits</div>
           </Link>
 
+          <Link to="/weddings" id="weddings" className="services">
+            <div className='overlay'>Weddings</div>
+          </Link>
+
       </div>
 
       <div className='textDivs'>
