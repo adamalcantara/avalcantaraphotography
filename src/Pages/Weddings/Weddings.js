@@ -1,11 +1,13 @@
 import React from 'react'
-import WeddingCarousel from '../../Components/WeddingCarousel/WeddingCarousel'
+import Rings from "../../img/weddings/weddings1.jpg";
+
+import "./Weddings.css"
 
 const Weddings = () => {
   return (
-    <div>
-        <h2>Coming Soon</h2>
-        <WeddingCarousel />
+    <div id="weddingsDiv">
+        <h2 id="weddingSoon">Coming Soon</h2>
+        <img src={Rings} id="ringsimg"></img>
     </div>
   )
 }

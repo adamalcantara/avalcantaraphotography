@@ -1,0 +1,13 @@
+#weddingsDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#weddingSoon {
+    font-size: 35px;
+    text-align: center;
+}
+
+#ringsimg {
+    width: 45%;
+}
