@@ -5,11 +5,11 @@ import "./ContactForm.css"
 function ContactForm() {
     const [state, handleSubmit] = useForm("moqyndap");
     if (state.succeeded) {
-        return <p>Thanks you so much for contacting us. We will get back to you shortly.</p>;
+        return <p>Thanks you so much for contacting us. We will get back to you shortly!</p>;
     }
     return (
         <form onSubmit={handleSubmit} id="contactForm">
-            <p id="pleaseContact">Please fill out the form below to contact us.</p>
+            <p id="pleaseContact">Please fill out the form below to contact us!</p>
             {/* name inputs */}
             <div id="nameInput">
                 <div id="firstNameInput">
