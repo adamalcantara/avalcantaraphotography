@@ -39,7 +39,7 @@ const About = () => {
 
       <div id="valeriebio">
         <h2 id="valerieheader" className="headers">Valerie</h2>
-        <p><img src={valerie} id="valerieheadshot" alt="Valerie's headshot"></img>I have had a camera in my hand since I was a kid. My time living abroad had a profound affect on my drive to visually document life’s beauty. I earned my Bachelors degree in Film Studies, learning many techniques of successful visual storytelling which translated well into photography.
+        <p><img src={valerie} id="valerieheadshot" alt="Valerie's headshot"></img>I have had a camera in my hand since I was a kid. My time living abroad had a profound affect on my drive to visually document life&#39;s beauty. I earned my Bachelors degree in Film Studies, learning many techniques of successful visual storytelling which translated well into photography.
 
         <div className="spacer"></div>
 
