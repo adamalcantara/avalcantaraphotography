@@ -9,7 +9,7 @@ const About = () => {
     <div id="about">
 
       <div id="aboutTopSection">
-        <p id="introText">We are A.V. Alcantara Photography, a husband and wife photography team based in Orlando, Florida! We specialize in headshot, portrait, and wedding photography. Our mutual love for the art of photography is what brought us together as a couple, and our aspiration continues to be telling stories through our photographs. Both of us have backgrounds in film, and have translated the knowledge of composition and storytelling to still photography. Please feel free to contact us if you have any questions! We can’t wait to hear from you.</p>
+        <p id="introText">We are A.V. Alcantara Photography, a husband and wife photography team based in Orlando, Florida! We specialize in headshot, portrait, and wedding photography. Our mutual love for the art of photography is what brought us together as a couple, and our aspiration continues to be telling stories through our photographs. Both of us have backgrounds in film, and have translated the knowledge of composition and storytelling to still photography. Please feel free to contact us if you have any questions! We can&#39;t wait to hear from you.</p>
         <img src={beach} id="topimg" alt="couple on the beach"></img>
       </div>
 
