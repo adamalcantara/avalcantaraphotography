@@ -48,7 +48,7 @@ class Navbar extends Component {
 
             {/* start regular navigation */}
             <div id="nav">
-                <Link to="/" id="linklogo"><img src={logo} alt="logo" id="logo"></img></Link>
+                
                 <ul id='navigation'>
                     <li><Link to="/" className="menuitem staticmenu">Home</Link></li>
                     <div id="dropdown">
@@ -59,6 +59,7 @@ class Navbar extends Component {
                             <Link to="/weddings" className="menuitem">Weddings</Link>
                         </div>
                     </div>            
+                    <Link to="/" id="linklogo"><img src={logo} alt="logo" id="logo"></img></Link>
                     <li><Link to="/about" className="menuitem staticmenu">About</Link></li>
                     <li><Link to="/contact" className="menuitem staticmenu">Contact</Link></li>
                 </ul>
