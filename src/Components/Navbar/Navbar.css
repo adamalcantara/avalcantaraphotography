@@ -10,18 +10,19 @@
     flex-direction: column;
     width: 100%;
     font-weight: 300;
-    height: 100px;
+    height: 100%;
     align-items: center;
-    /* background-color: grey; */
+    background-color: grey;
 }
 
 #navigation {
     list-style: none;
     padding-inline-start: 0;
     justify-content: space-between;
+    align-items: center;
     font-size: 35px;
     display: flex;
-    width: 35%;
+    width: 45%;
     margin: 25px 0;
 }
 
