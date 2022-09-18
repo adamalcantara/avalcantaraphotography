@@ -21,13 +21,16 @@ class Navbar extends Component {
     render() {
         return (
         <div>
+            {/* mobile navigation */}
             <div id="mobileNav">
 
                 <div id="mobileNavPieces">
-                    {/* mobile navigation goes here */}
+                    {/* mobile logo */}
                     <div>
                         <img src={logosmall} id="logosmall" alt="logo"></img>
                     </div>
+
+                    {/* burger item */}
                     <div id="burger" onClick={this.handleClick}>
                         <div id="line1" className={this.state.clicked ? 'line1click' : ''}></div>
                         <div id="line2" className={this.state.clicked ? 'line2click' : ''}></div>
@@ -35,6 +38,7 @@ class Navbar extends Component {
                     </div>
                 </div>
 
+                {/* navbar which appears on click of burger */}
                 <div className={this.state.clicked ? 'navbar active' : 'navbar'}>
                     <Link to="/" className="navlinks" onClick={this.handleClick}>Home</Link>
                     <Link to="/about" className="navlinks" onClick={this.handleClick}>About</Link>
@@ -65,7 +69,7 @@ class Navbar extends Component {
                      {/*Logo  */}
                     <Link to="/"><img src={logo} alt="logo" id="logo"></img></Link>
 
-                    
+
                     <li><Link to="/about" className="menuitem staticmenu">About</Link></li>
                     <li><Link to="/contact" className="menuitem staticmenu">Contact</Link></li>
                 </ul>
