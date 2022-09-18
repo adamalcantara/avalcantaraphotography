@@ -51,6 +51,8 @@ class Navbar extends Component {
                 
                 <ul id='navigation'>
                     <li><Link to="/" className="menuitem staticmenu">Home</Link></li>
+
+                    {/* Dropdown area */}
                     <div id="dropdown">
                         <li id="dropbtn" className="menuitem">Portfolio</li>
                         <div id="dropdown-content">
@@ -58,12 +60,17 @@ class Navbar extends Component {
                             <Link to="/headshots" className="menuitem">Headshots</Link>
                             <Link to="/weddings" className="menuitem">Weddings</Link>
                         </div>
-                    </div>            
+                    </div>           
+
+                     {/*Logo  */}
                     <Link to="/"><img src={logo} alt="logo" id="logo"></img></Link>
+
+                    
                     <li><Link to="/about" className="menuitem staticmenu">About</Link></li>
                     <li><Link to="/contact" className="menuitem staticmenu">Contact</Link></li>
                 </ul>
 
+                {/* Social navigation starts here */}
                 {/* <ul id="socialnav">
                     <a href="https://fb.me/avalcantaraphotography" target="_blank" rel="noopener noreferrer"><FaFacebookF className='socialicon'/></a>
                     <a href="https://www.instagram.com/avalcantaraphotography/" target="_blank" rel='noopener noreferrer'><FaInstagram className='socialicon'/></a>
