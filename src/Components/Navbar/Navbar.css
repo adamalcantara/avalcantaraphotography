@@ -139,7 +139,7 @@
 
 @media screen and (max-width: 1700px) {
     #logo {
-        width: 300px;
+        width: 250px;
     }
 
     .socialicon {
@@ -148,6 +148,9 @@
 }
 
 @media screen and (max-width: 1300px) {
+    #navigation {
+        width: 65% !important;
+    }
     #logo {
         width: 250px;
         height: auto;
@@ -163,6 +166,12 @@
 
     #socialnav {
         width: 30%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #navigation {
+        width: 80% !important;
     }
 }
 
