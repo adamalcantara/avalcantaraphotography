@@ -75,11 +75,11 @@ class Navbar extends Component {
                 </ul>
 
                 {/* Social navigation starts here */}
-                {/* <ul id="socialnav">
+                <ul id="socialnav">
                     <a href="https://fb.me/avalcantaraphotography" target="_blank" rel="noopener noreferrer"><FaFacebookF className='socialicon'/></a>
                     <a href="https://www.instagram.com/avalcantaraphotography/" target="_blank" rel='noopener noreferrer'><FaInstagram className='socialicon'/></a>
                     <a href="https://vm.tiktok.com/ZTda9nxjm/" target="_blank" rel="noopener noreferrer"><FaTiktok className='socialicon'/></a>
-                </ul> */}
+                </ul>
             </div>
         </div>
         )
