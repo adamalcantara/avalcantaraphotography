@@ -29,7 +29,7 @@ const Home = () => {
 
       <div className='textDivs'>
           <p className="homeText">Please feel free to contact us if you have any questions. We look forward to hearing from you!</p>
-          <Link to="/about" className="learnMore">Contact Us</Link>
+          <Link to="/contact" className="learnMore">Contact Us</Link>
       </div>
     </div>
   )
